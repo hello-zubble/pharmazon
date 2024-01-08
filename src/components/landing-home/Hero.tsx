@@ -37,14 +37,13 @@ const Hero: React.FC = () => {
                 <div className='relative'>
                     <div className='flex justify-center'>
                         <div className="w-[75rem] h-[20rem]  top-[36rem]  flex items-center justify-center bg-[rgba(255,255,255,0.3)] rounded-[10px] mx-auto mt-14">
-                            <div className=' w-[70rem] h-[16rem] flex justify-center items-center bg-[rgba(255,255,255,0.6)] rounded-[10px] mx-auto my-auto'>
-                                <div className='flex justify-center items-center bg-[#F9FDFF] rounded-lg gap-10'>
-                                    <div className=' border-r-2 border-white  flex items-center flex-col p-4'>
+                            <div className=' w-[70rem] h-[16rem] flex justify-center items-center bg-[rgba(255,255,255,0.6)] rounded-[10px] mx-auto my-auto px-8'>
+                                <div className='flex justify-center items-center rounded-lg gap-2 bg-white opacity-100'>
+                                    <div className='flex items-center flex-col p-4 bg-[#F2F9FF]/50'>
                                         <div className=" w-3/4 h-20 text-center text-blue-400 text-lg font-normal leading-loose mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
                                         <PrimaryButton className='h-16 text-xl text-bold w-2/3 rounded-xl'>Book an Follow Up</PrimaryButton>
                                     </div>
-
-                                    <div className='border-r-2 border-white  flex items-center flex-col p-4'>
+                                    <div className='flex items-center flex-col p-4 bg-[#F2F9FF]/50'>
                                         <div className="w-3/4 h-20 text-center text-blue-400 text-lg font-normal leading-loose mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
                                         <PrimaryButton className='h-16 text-xl text-bold w-2/3 rounded-xl'> Book an Follow Up </PrimaryButton>
                                     </div>

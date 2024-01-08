@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
     return (
         <div className="bg-ph-yellow/15">
             <nav className="pt-10">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="max-w-7xl mx-auto px-4">
                     <div className="flex items-center justify-between h-16 z-10 relative">
                         <div className="flex items-center justify-between flex-1">
                             <div className="">
