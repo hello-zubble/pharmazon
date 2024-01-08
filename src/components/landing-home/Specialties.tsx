@@ -2,8 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import { specialties } from "@/lib/data/index";
 
-import Link from 'next/link';
-
 export default function Specialties() {
   return (
     <section className='container py-20 max-w-7xl mx-auto '>
