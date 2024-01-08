@@ -21,6 +21,10 @@ const config: Config = {
           DEFAULT: '#FFE16A',
           dark: '#FFE16A',
         },
+        "navy-blue": {
+          DEFAULT: '#1D2939',
+          dark: '#1D2939',
+        },
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
