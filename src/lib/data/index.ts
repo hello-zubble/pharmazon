@@ -34,7 +34,7 @@ export const specialties:Specialty[]=[
         src:"/images/primary-care.svg"
     },
     {
-        name:"Dermatologiest",
+        name:"Dermatologist",
         src:"/images/Dermatologist.svg"
     },
     {
