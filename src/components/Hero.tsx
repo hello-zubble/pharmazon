@@ -6,7 +6,7 @@ import { LinkButton, PrimaryButton } from './Buttons';
 
 const Hero: React.FC = () => {
     return (
-        <section className="bg-ui-yellow/20">
+        <section className="bg-ph-yellow/15">
             <div className='max-w-[1440px] mx-auto relative -translate-y-24'>
                 <Image
                     className=' absolute right-32 top-14 -z-1'
