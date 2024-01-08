@@ -23,7 +23,7 @@ const PrimaryButton: React.FC<PrimaryButtonProps> = ({ children, className }) =>
 
 const SecondaryButton: React.FC<PrimaryButtonProps> = ({ children, className }) => {
     return (
-        <button className={"bg-ui-secondary hover:bg-ui-secondary/90 text-white py-3 px-6 rounded" + className}>
+        <button className={"bg-ui-secondary hover:bg-ui-secondary/90 text-white py-3 px-6 rounded " + className}>
             {children}
         </button>
     );

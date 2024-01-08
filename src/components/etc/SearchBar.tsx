@@ -44,7 +44,7 @@ const Searchbar = () => {
                     <input type="text" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className=" bg-transparent outline-none placeholder:text-xl w-full" placeholder="Search by Clinic name" />
                 </form>
                 <div className="p-4 min-w-48">
-                <SecondaryButton onClick={handleFormSubmit} type="submit">
+                <SecondaryButton className="font-bold" onClick={handleFormSubmit} type="submit">
                     Find & Book
                 </SecondaryButton>
                 </div>
