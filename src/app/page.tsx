@@ -1,10 +1,12 @@
 import Image from "next/image";
 import { specialties, doctors, nearByClinics } from "@/lib/data/index";
 import DoctorProfile from "@/components/DoctorProfile";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
     <>
+    <Hero />
       <section className=" bg-[#F2F9FF] py-10">
         <div className="container max-w-7xl mx-auto">
           <div className="flex items-center justify-center gap-5 ">
