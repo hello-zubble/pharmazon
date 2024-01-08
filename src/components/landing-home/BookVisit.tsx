@@ -1,6 +1,6 @@
 import React from 'react'
 import { specialties, doctors, nearByClinics } from "@/lib/data/index";
-import DoctorProfile from "@/components/DoctorProfile";
+import DoctorProfile from "@/components/etc/DoctorProfile";
 import Image from "next/image";
 
 

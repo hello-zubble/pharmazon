@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 
 import {nearByClinics} from "@/lib/data/index";
-import ClinicCard from '@/components/ClinicCard';
+import ClinicCard from '../etc/ClinicCard';
 
 export default function ExploreClinics() {
   return (

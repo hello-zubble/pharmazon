@@ -1,24 +1,22 @@
 
-import BookVisit from "@/components/sections/BookVisit";
-import Hero from "@/components/Hero";
-import ExploreClinics from "@/components/sections/ExploreClinics";
-import Specialties from "@/components/sections/Specialties";
-import Benefits from "@/components/sections/Benefits";
-import Footer from "@/components/sections/Footer";
-import JoinWith from "@/components/sections/JoinWith";
+import BookVisit from "@/components/landing-home/BookVisit";
+import Hero from "@/components/landing-home/Hero";
+import ExploreClinics from "@/components/landing-home/ExploreClinics";
+import Specialties from "@/components/landing-home/Specialties";
+import Benefits from "@/components/landing-home/Benefits";
+import JoinWith from "@/components/landing-home/JoinWith";
+import Tutorial from "@/components/landing-home/Tutorial";
 
 export default function Home() {
   return (
     <>
-    <Hero />
-    <Specialties />
-    <BookVisit />
-    <ExploreClinics />
-    <Benefits />
-    <JoinWith />
-    <Footer />
-
-      
+      <Hero />
+      <Specialties />
+      <BookVisit />
+      <ExploreClinics />
+      <Tutorial />
+      <Benefits />
+      <JoinWith />
     </>
   );
 }

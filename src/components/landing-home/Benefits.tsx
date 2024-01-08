@@ -1,5 +1,5 @@
 import React from 'react'
-import BenefitCard from '../BenefitCard'
+import BenefitCard from '../etc/BenefitCard'
 import {specialties,doctors,nearByClinics, benefits} from "@/lib/data/index";
 
 

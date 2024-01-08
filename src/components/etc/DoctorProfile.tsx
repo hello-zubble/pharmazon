@@ -27,7 +27,7 @@ const DoctorProfile = ({doctorPhoto,doctorName,clinicName,specialization,experie
             height={14}/>
             <p>Next Slot, {nextSlot.date}, {nextSlot.startTime} - {nextSlot.endTime}</p>
         </div>
-        <Link href="https://youtube.com">
+        <Link href="#">
           <button className='w-full h-12 rounded text-white bg-ph-yellow opacity-90 hover:opacity-100 transition-opacity duration-300'>Book online</button>
         </Link>
       </div>

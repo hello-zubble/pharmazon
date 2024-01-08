@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import React from 'react';
-import Searchbar from './SearchBar';
+import Searchbar from '../etc/SearchBar';
 import Link from 'next/link';
-import { LinkButton, PrimaryButton } from './Buttons';
+import { LinkButton, PrimaryButton } from '../Buttons';
 
 const Hero: React.FC = () => {
     return (

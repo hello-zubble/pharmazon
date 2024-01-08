@@ -9,7 +9,7 @@ export default function JoinWith() {
           <p className='text-ph-yellow text-sm font-bold mb-3'>JOIN WITH OUR COMMUNITY</p>
           <h4 className='text-navy-blue text-5xl font-bold font mb-3'>Hassle-Free Booking <br /> at Your Fingertips</h4>
           <p className='max-w-lg mt-3 text-navy-blue text-lg font-normal mb-3'>Explore our extensive network of skilled and accredited doctors from various hospitals. Find the perfect healthcare provider who matches your specific needs and preferences.</p>
-          <Link href="https://youtube.com">
+          <Link href="#">
             <button className='bg-ph-yellow opacity-90 hover:opacity-100 transition-opacity duration-300 text-white rounded-[10px] h-12 w-80'>Book an Appointment </button>
           </Link>
         </div>

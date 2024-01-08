@@ -2,7 +2,7 @@
 import { FormEvent, useState } from "react";
 import { search } from "@/lib/action/search";
 import Image from "next/image";
-import { SecondaryButton } from "./Buttons";
+import { SecondaryButton } from "../Buttons";
 
 const Searchbar = () => {
     const [searchTerm, setSearchTerm] = useState('');
@@ -25,7 +25,6 @@ const Searchbar = () => {
                         <select
                             id="clinicSelect"
                             className="appearance-none min-w-[6rem] bg-transparent border-none leading-tight h-6 opacity-80 cursor-pointer text-navy-blue text-xl font-normal focus:outline-none"
-                            value="Clinic"
                             defaultValue="Clinic"
                         >
                             <option value="Clinic">Clinic</option>
