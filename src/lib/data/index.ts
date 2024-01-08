@@ -1,4 +1,33 @@
-import { Specialty,Doctor, NearbyClinic } from "../types"
+import { Specialty,Doctor, ClinicCard, Benefit } from "../types"
+
+export const benefits:Benefit[] = [
+    {
+        name: "Accessibility",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget augue nec massa volutpat aliquam fringilla non."
+    },
+    {
+        name: "Convenience & Time Savings",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget augue nec massa volutpat aliquam fringilla non."
+    },
+    {
+        name: "Increased Availability",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget augue nec massa volutpat aliquam fringilla non."
+    },
+    {
+        name: "Cost-Effectiveness",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget augue nec massa volutpat aliquam fringilla non."
+    },
+    {
+        name: "Continuity of Care",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget augue nec massa volutpat aliquam fringilla non."
+    },
+    {
+        name: "Enhanced Privacy",
+        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget augue nec massa volutpat aliquam fringilla non."
+    },
+    
+];
+
 export const specialties:Specialty[]=[
     {
         name:"Primary Care",
@@ -49,7 +78,7 @@ export const doctors:Doctor[]=[
     }
 ]
 
-export const nearByClinics:NearbyClinic[]=[
+export const nearByClinics:ClinicCard[]=[
     {
         image:"/images/clinics/1.jpeg",
         name:"Medlife Care Clinic",
