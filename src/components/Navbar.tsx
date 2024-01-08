@@ -4,14 +4,14 @@ import { LinkButton, PrimaryButton } from './Buttons';
 
 const Navbar: React.FC = () => {
     return (
-        <div className="bg-ui-yellow/20">
+        <div className="bg-ph-yellow/20">
             <nav className="pt-10">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16 z-10 relative">
                         <div className="flex items-center justify-between flex-1">
                             <div className="">
                                 <Link href="/">
-                                    <h1 className='text-slate-800 text-3xl font-bold leading-loose cursor-pointer'>Pharmazon</h1>
+                                    <h1 className='text-navy-blue text-3xl font-bold leading-loose cursor-pointer'>Pharmazon</h1>
                                 </Link>
                             </div>
                             <div className="ml-10 flex space-x-4 gap-6 justify-center items-baseline">

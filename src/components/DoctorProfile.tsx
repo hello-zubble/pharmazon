@@ -12,7 +12,7 @@ const DoctorProfile = ({doctorPhoto,doctorName,clinicName,specialization,experie
       alt="doctor-image"
       width={300}
       height={174}/>
-      <p className='text-amber-500 text-sm font-normal '>{clinicName}</p>
+      <p className='text-ph-yellow text-sm font-normal '>{clinicName}</p>
       <h4 className='text-navy-blue text-xl font-semibold '>{doctorName}</h4>
       <p className='text-navy-blue text-sm font-normal '>{specialization}</p>
       <p className='text-navy-blue text-sm font-normal mb-2'>{experience} Years of Experience</p>
@@ -28,7 +28,7 @@ const DoctorProfile = ({doctorPhoto,doctorName,clinicName,specialization,experie
             <p>Next Slot, {nextSlot.date}, {nextSlot.startTime} - {nextSlot.endTime}</p>
         </div>
         <Link href="https://youtube.com">
-          <button className='w-full h-12 rounded text-white bg-amber-500 opacity-90 hover:opacity-100 transition-opacity duration-300'>Book online</button>
+          <button className='w-full h-12 rounded text-white bg-ph-yellow opacity-90 hover:opacity-100 transition-opacity duration-300'>Book online</button>
         </Link>
       </div>
   </div>

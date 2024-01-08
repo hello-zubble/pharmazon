@@ -7,7 +7,7 @@ import Link from 'next/link';
 export default function Specialties() {
   return (
     <section className='container py-20 max-w-7xl mx-auto '>
-        <h3 className='w-full text-center text-slate-800 text-4xl font-bold mb-12'>Specialties</h3>
+        <h3 className='w-full text-center text-navy-blue text-4xl font-bold mb-12'>Specialties</h3>
         <div className='flex items-center justify-between'>
           {
             specialties.map((specialty)=>{

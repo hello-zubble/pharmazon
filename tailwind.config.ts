@@ -25,6 +25,10 @@ const config: Config = {
           DEFAULT: '#1D2939',
           dark: '#1D2939',
         },
+        "ph-yellow": {
+          DEFAULT: '#F49819',
+          dark: '#F49819',
+        },
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

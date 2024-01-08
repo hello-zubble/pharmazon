@@ -10,7 +10,7 @@ const ClinicCard = ({image,name,specialisation}:ClinicCard) => {
       width={300}
       height={200}/>
       <div className="text-container  px-3">
-        <h4 className='text-slate-800 text-xl font-bold mb-1'>{name}</h4>
+        <h4 className='text-navy-blue text-xl font-bold mb-1'>{name}</h4>
         <p className=' text-slate-500 text-base font-normal'>{specialisation}</p>
       </div>
   </div>
