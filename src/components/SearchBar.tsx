@@ -14,8 +14,8 @@ const Searchbar = () => {
     }
     return (
         <div className="relative z-10">
-            <div className='flex bg-white/50 justify-around items-center mt-32 w-[48rem] h-24 rounded-md border-2 border-white backdrop-blur-[2rem] '>
-                <div className='flex gap-5'>
+            <div className='flex bg-white/50 justify-around items-center mt-32 max-w-[48rem] h-24 rounded-md border-2 border-white backdrop-blur-[2rem] '>
+                <div className='flex gap-5 p-4'>
                     <Image
                         src="/icons/search.svg"
                         alt="search"
@@ -24,7 +24,7 @@ const Searchbar = () => {
                     <label htmlFor="clinicSelect" className="relative cursor-pointer">
                         <select
                             id="clinicSelect"
-                            className="appearance-none w-[6rem] bg-transparent border-none leading-tight h-6 opacity-80 cursor-pointer text-slate-500 text-xl font-normal focus:outline-none"
+                            className="appearance-none min-w-[6rem] bg-transparent border-none leading-tight h-6 opacity-80 cursor-pointer text-navy-blue text-xl font-normal focus:outline-none"
                             value="Clinic"
                             defaultValue="Clinic"
                         >
@@ -41,12 +41,14 @@ const Searchbar = () => {
                         />
                     </label>
                 </div>
-                <form className="flex" onSubmit={handleFormSubmit}>
-                    <input type="text" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className=" bg-transparent outline-none placeholder:text-xl" placeholder="Search by Clinic name" />
+                <form className="flex-grow" onSubmit={handleFormSubmit}>
+                    <input type="text" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className=" bg-transparent outline-none placeholder:text-xl w-full" placeholder="Search by Clinic name" />
                 </form>
+                <div className="p-4 min-w-48">
                 <SecondaryButton onClick={handleFormSubmit} type="submit">
                     Find & Book
                 </SecondaryButton>
+                </div>
             </div>
         </div>
     )

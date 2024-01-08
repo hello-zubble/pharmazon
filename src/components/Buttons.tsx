@@ -5,16 +5,17 @@ type PrimaryButtonProps = {
     children: ReactNode;
     onClick?: MouseEventHandler<HTMLButtonElement>;
     type?: 'button' | 'submit' | 'reset';
+    className?: string;
 };
-    
+
 type LinkButtonProps = {
     children: ReactNode;
     href: string;
 };
 
-const PrimaryButton: React.FC<PrimaryButtonProps> = ({ children }) => {
+const PrimaryButton: React.FC<PrimaryButtonProps> = ({ children, className }) => {
     return (
-        <button className="bg-ui-primary hover:bg-ui-primary/90 text-white py-3 px-6 rounded">
+        <button className={"bg-ui-primary hover:bg-ui-primary/90 text-white py-3 px-6 rounded " + className}>
             {children}
         </button>
     );
@@ -36,4 +37,4 @@ const LinkButton: React.FC<LinkButtonProps> = ({ children, href }) => {
     );
 };
 
-export { PrimaryButton,SecondaryButton,LinkButton };
+export { PrimaryButton, SecondaryButton, LinkButton };
