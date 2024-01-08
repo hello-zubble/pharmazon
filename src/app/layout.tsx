@@ -20,10 +20,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={DM.className}>
         <Navbar />
-        <main className='bg-white'>
+        <main className="bg-white">
           {children}
         </main>
-        <Footer/>
+        <Footer />
       </body>
     </html >
   )

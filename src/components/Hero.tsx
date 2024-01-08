@@ -7,18 +7,20 @@ import { LinkButton, PrimaryButton } from './Buttons';
 const Hero: React.FC = () => {
     return (
         <section className="bg-ui-yellow/20">
-            <Image
-                className=' absolute right-36 top-14'
-                src="/images/rhombus-full.svg"
-                alt="rhombus"
-                width={450}
-                height={450} />
-            <Image
-                className=' absolute right-0 top-6 '
-                src="/images/rhombus.svg"
-                alt="rhombus"
-                width={450}
-                height={450} />
+            <div className='max-w-[1440px] mx-auto relative -translate-y-24'>
+                <Image
+                    className=' absolute right-32 top-14 -z-1'
+                    src="/images/rhombus-full.svg"
+                    alt="rhombus"
+                    width={450}
+                    height={450} />
+                <Image
+                    className=' absolute right-2 top-14 -z-1'
+                    src="/images/rhombus.svg"
+                    alt="rhombus"
+                    width={400}
+                    height={400} />
+            </div>
             <div className="max-w-7xl mx-auto min-h-96 px-4 relative  translate-y-24">
                 <div className=''>
                     <h1 className='w-full text-ui-primary text-6xl font-bold'>Stay at Home. <br />Consult Online</h1>
@@ -36,14 +38,14 @@ const Hero: React.FC = () => {
                     <div className='flex justify-center'>
                         <div className="w-[75rem] h-[20rem]  top-[36rem]  flex items-center justify-center bg-[rgba(255,255,255,0.3)] rounded-[10px] mx-auto mt-14">
                             <div className=' w-[70rem] h-[16rem] flex justify-center items-center bg-[rgba(255,255,255,0.6)] rounded-[10px] mx-auto my-auto'>
-                                <div className='flex justify-center items-center bg-[#F9FDFF] rounded-lg gap-10 p-4'>
-                                    <div className=' border-r-2 border-white  flex items-center flex-col'>
-                                        <div className=" w-[30rem] h-20 text-center text-blue-400 text-xl font-normal leading-loose mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
+                                <div className='flex justify-center items-center bg-[#F9FDFF] rounded-lg gap-10'>
+                                    <div className=' border-r-2 border-white  flex items-center flex-col p-4'>
+                                        <div className=" w-3/4 h-20 text-center text-blue-400 text-lg font-normal leading-loose mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
                                         <PrimaryButton className='h-16 text-xl text-bold w-2/3 rounded-xl'>Book an Follow Up</PrimaryButton>
                                     </div>
 
-                                    <div className='border-r-2 border-white  flex items-center flex-col'>
-                                        <div className="w-[30rem] h-20 text-center text-blue-400 text-xl font-normal leading-loose mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
+                                    <div className='border-r-2 border-white  flex items-center flex-col p-4'>
+                                        <div className="w-3/4 h-20 text-center text-blue-400 text-lg font-normal leading-loose mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</div>
                                         <PrimaryButton className='h-16 text-xl text-bold w-2/3 rounded-xl'> Book an Follow Up </PrimaryButton>
                                     </div>
                                 </div>
